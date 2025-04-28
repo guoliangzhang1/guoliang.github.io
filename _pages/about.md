@@ -1,49 +1,69 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+### 个人介绍 (About Me)
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+***
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+毕京学，山东建筑大学项目研究员/副教授，硕士生导师，中国电子科技集团公司第五十四研究所卫星导航系统与装备技术国家重点实验室博士后，中国测绘学会矿山测量专业委员会委员、《导航定位与授时》青年编委/专栏主编、《无线电工程》青年编委，长期从事“北斗+”室内外一体化定位、活动识别、组合导航等方面的科研和教学工作。主持国家自然科学基金青年项目、山东省高等学校青年创新团队发展计划项目、河北省自然科学基金面上项目、山东省自然科学基金青年项目、河北省博士后基金重点资助等10余项，核心参与国家重点研发计划等多项国家级项目，发表学术论文60余篇，其中，第一/通讯作者发表SCI/EI论文18篇、核心论文17篇，中科院1区TOP论文4篇（一作3篇、通讯1篇），第一作者ESI高被引1篇，第一作者中国科协“科技期刊双语传播工程”（2023年度）高质量论文1篇，第一作者中国知网高被引5篇，出版学术著作2部，授权国家发明专利7项、软件著作权10余项。获得中国卫星导航定位科技进步二等奖、山东省自然资源科学技术一等奖各1项。
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+### 研究方向(Interests)
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+***
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* XXXXXXX
+* XXXXXXX
+* XXXXXXX
 
-**Markdown generator**
+<h3>招生信息(Enrollment)</h3>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+***
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* XXXXXXX
+* XXXXXXX
+* XXXXXXX
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+### 教育经历 (Education)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+***
+
+* XXXXXXX
+* XXXXXXX
+* XXXXXXX
+
+### 科研项目 (Fundings)
+
+***
+
+* 国家自然科学基金青年项目，基于智能手机WiFi/气压计/IMU的室内三维自适应高精度定位方法，42001397，2021.01-2023.12，主持。
+* 国家重点研发计划，室内混合智能定位技术，2016YFB0502102，2016.01-2021.12，参与。
+* 863计划，特大城市室内外无缝定位信号体制与系统构建，2013AA12A201，2013.01-2015.12，参与。
+* 卫星导航系统与装备技术国家重点实验室开放基金，终端/云端协同的Wi-Fi/蓝牙/地磁指纹库众包更新技术，CEPNT-2018KF-03，2018.09-2019.09，参与。
+* ....
+
+### 代表论著 (Papers)
+
+***
+
+<div style="display: flex; gap: 20px; align-items: center;">
+  <img src="../image/lunwen.png" style="width: 40%; max-width: 400px; height: auto;" />
+  <div style="flex: 1;">
+    <h3></h3>
+    <p>PSOSVRPos: WiFi indoor positioning using SVR optimized by PSO</p>
+  </div>
+</div>
+
+***
+
+###  教学科研奖励 (Honors)
+
+* XXXXXXX
+
+
